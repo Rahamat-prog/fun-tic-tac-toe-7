@@ -51,7 +51,7 @@ function Grid({numberOfCards}) {
   }
 
   return (
-    <main className="min-h-screen bg-gray-400 flex flex-col items-center justify-start p-4">
+    <main className="min-h-screen bg-gray-400 flex flex-col items-center justify-start p-4 ">
       {winner && (
         <section className="text-center mb-4 ">
           {/* here showing match is drow or one of them is win the match */}
@@ -93,7 +93,7 @@ function Grid({numberOfCards}) {
       {/* The user turn -  another way, with the extra tailwind make it more attractive */}
       <h1
         className={`
-                text-2xl sm:text-3xl font-bold mb-6 px-4 py-2
+                text-2xl sm:text-3xl font-bold mb-6 px-4 py-2 mt-13
                 rounded-xl shadow-sm
                 transition-all duration-300
                 ${
