@@ -51,7 +51,7 @@ function Grid({numberOfCards}) {
   }
 
   return (
-    <main className="min-h-screen bg-gray-400 flex flex-col items-center justify-center p-4">
+    <main className="min-h-screen bg-gray-400 flex flex-col items-center justify-start p-4">
       {winner && (
         <section className="text-center mb-4 ">
           {/* here showing match is drow or one of them is win the match */}
